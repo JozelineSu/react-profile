@@ -1,4 +1,9 @@
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
+import arrow from '../images/arrow-link.png';
+import horiseon from '../images/horiseon-project.png';
+import nomNom from '../images/nom-nom.png';
+import seamless from '../images/seamless-booking.png';
 
 export default function Portfolio() {
     return (
@@ -6,11 +11,11 @@ export default function Portfolio() {
             <div>
                 <h3>
                     <Link to="https://jozelinesu.github.io/urban-octo-telegram-hw/" target="_blank">
-                        Horiseon Project <image href="arrow-link.png"/>
+                        Horiseon Project <img src={arrow}/>
                     </Link>   
                 </h3>
 
-                <image href="Horiseon-Project.png"/>                        
+                <img src={horiseon}/>                        
 
                 <p>This is a project I worked on in my bootcamp at UT Austin. We were tasked to review the given code and improve the HTML structure, organization of CSS elements, and creating alternate text for our images.</p>                    
             </div>
@@ -18,11 +23,11 @@ export default function Portfolio() {
             <div>
                 <h3>
                     <Link to="https://jozelinesu.github.io/urban-octo-telegram-hw/" target="_blank">
-                        Nom Nom Navigator <image href="arrow-link.png"/>
+                        Nom Nom Navigator <img src={arrow}/>
                     </Link>   
                 </h3>
 
-                <image href="res_image.png"/>                        
+                <img src={nomNom}/>                        
 
                 <p>This is a project I worked on in my bootcamp at UT Austin. We were tasked to review the given code and improve the HTML structure, organization of CSS elements, and creating alternate text for our images.</p>                    
             </div>
@@ -30,11 +35,11 @@ export default function Portfolio() {
             <div>
                 <h3>
                     <Link to="https://deazymat.github.io/travel-project/"target="_blank">
-                        Seamless Booking <image href="arrow-link.png"/>
+                        Seamless Booking <img src={arrow}/>
                     </Link>   
                 </h3>
 
-                <image href="seamlessBooking.png"/>                        
+                <img src={seamless}/>                        
 
                 <p>This is a group project I worked on with members of the bootcamp course.
                     We built a travel tool site that helps users book hotels, calculate currency
