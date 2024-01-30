@@ -1,0 +1,11 @@
+.footer {
+    border: 1px solid rgba(0, 110, 255, 0.452);
+    padding: 40px;
+    box-shadow: 0 -5px 5px -5px rgb(0, 110, 255);
+    bottom: 0;
+    width: 100%;
+}
+.footer a {
+    text-decoration: none;
+    color: yellow;
+}

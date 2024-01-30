@@ -44,3 +44,11 @@ body {
     rotate: 20deg;
     transition: rotate 250ms ease-in 5ms;
 }
+
+.my-image {
+    border: solid 3px rgb(143, 238, 255);
+    height: 250px;
+    width: auto;
+    margin: 40px;
+    border-radius: 200px;
+}
