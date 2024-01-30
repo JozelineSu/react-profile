@@ -31,7 +31,7 @@ export default function Portfolio() {
             <div className="w-75">
                 <div className="card-title">
                     <h3>
-                        <Link className="work-link" to="https://jozelinesu.github.io/urban-octo-telegram-hw/" target="_blank">
+                        <Link className="work-link" to="https://miro.com/app/board/uXjVNQ4TRWk=/?share_link_id=690774992327" target="_blank">
                             Nom Nom Navigator <img className="arrow" src={arrow}/>
                         </Link>   
                     </h3>
