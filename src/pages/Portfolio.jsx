@@ -4,6 +4,7 @@ import arrow from '../images/arrow-link.png';
 import horiseon from '../images/horiseon-project.png';
 import nomNom from '../images/nom-nom.png';
 import seamless from '../images/seamless-booking.png';
+import pets from '../images/pets-r-us.png';
 
 import '../styles/Portfolio.css';
 
@@ -61,7 +62,25 @@ export default function Portfolio() {
                         exchange rates, and get inspiration for destinations by viewing city images.
                     </p>   
                 </div>
-            </div>      
+            </div>    
+
+            <div className="w-75">
+                <div className="card-title">
+                    <h3>
+                        <Link className="work-link" to="https://pets-r-us-f569.onrender.com"target="_blank">
+                            Pets-R-Us <img className="arrow" src={arrow}/>
+                        </Link>   
+                    </h3>
+                </div>
+                <div className="card-content d-flex justify-content-center align-items-center">
+                    <img src={pets} className="img-thumbnail"/>                        
+
+                    <p className="fs-4">This is a group project I worked on with members of the bootcamp course.
+                        We built a pet finder app that allows the user to find their perfect pet suitable for their 
+                        lifestyle. They will take a quiz to find the pet of their dreams. 
+                    </p>   
+                </div>
+            </div>    
         </div>
     )
 }
