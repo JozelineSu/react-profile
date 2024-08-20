@@ -1,3 +1,7 @@
+.portfolio-container {
+    width: 75%;
+}
+
 .img-thumbnail {
     height: 200px;
     width: auto;
@@ -32,6 +36,7 @@
     background-color: rgba(159, 197, 247, 0.164);
     border-radius: 10px;
     margin-bottom: 80px;
+    font-size: 25px;
 }
 
 .card-title:hover {
@@ -46,4 +51,33 @@
     box-shadow: none;
     box-shadow: none;
     background-color: rgb(4, 32, 68);     
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio-container {
+        display: block;
+        margin-bottom: none;
+    }
+    .card-container {
+        display: block;
+    }
+    .card-title{
+        width: 200px;
+    }
+    .card-title h3{
+        translate: none;
+        font-size: 17px;
+    }
+    .card-title img{
+        height: 15px;
+        width: auto;
+    }
+    .card-content{
+        flex-direction: column;
+        text-align: center;
+        font-size: 17px;
+    }
+    .img-thumbnail{
+        height: 160px;
+    }
 }

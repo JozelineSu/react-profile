@@ -4,11 +4,11 @@ import '../styles/Footer.css';
 function Footer() {
 
   return (
-    <div className ='footer'>
+    <footer>
         <Link to="https://github.com/JozelineSu">
             <a className='d-flex justify-content-center'>My Github</a>
         </Link>
-    </div>
+    </footer>
   );
 }
 
